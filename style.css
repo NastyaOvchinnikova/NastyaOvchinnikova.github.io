@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1180px;
+}
+
+.header-content {
+    padding: 30px 0;
+    text-align: center;
+}
+
+.main-content {
+    padding: 30px 0;
+    width: 100%;
+}
+
+.footer-content {
+    padding: 30px 0;
+    text-align: center;
+    width: 100%;
+}
+
+.header-content__title:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+.header-content__title:active {
+    background-color: yellow;
+}
+
+.header-content__title::after {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+.header-content__title::before {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgba(255, 192, 203, 0.438);
+}
+
+.header-content__title:hover::before {
+    background-color: aqua
+}
+
+
+
+.footer-content__title:hover {
+    background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%);
+    cursor: pointer;
+}
+
+.footer-content__title:active {
+    background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%);
+}
+
+.footer-content__title::after {
+    content: "qwerty";
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(217deg, rgba(30,87,153,0), rgba(30,87,153,0.8), rgba(30,87,153,1));
+}
+
+.footer-content__title::before {
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(217deg, rgba(30,87,153,0), rgba(30,87,153,0.8), rgba(30,87,153,1));
+}
+
+.footer-content__title:hover::before {
+    background: linear-gradient(217deg, rgba(30,87,153), rgba(30,87,153,0.8), rgba(30,87,153,1));
+}
