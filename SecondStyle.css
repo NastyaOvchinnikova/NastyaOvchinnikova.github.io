@@ -143,25 +143,3 @@ header {
 h1, h2, p {
     margin: 0;
 }
-
-.header-title__list:hover {
-    background-color: lightblue;
-    width: 400px;
-}
-
-.header-title__list:active {
-    background-color: dodgerblue;
-}
-
-.header-title__list-style {
-    background-color: cadetblue;
-    cursor: pointer;
-}
-
-.header-title__list-style::before {
-    background: linear-gradient(to top, #f6feff, #026ccf);
-}
-
-.header-title__list-color {
-    background: linear-gradient(90deg, #fdfdfd, #38d2f8);
-}
